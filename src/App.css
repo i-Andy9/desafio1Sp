@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+body{
+  overflow-x: hidden;
+}
+.relative {
+  position: relative;
+  background: pink;
+}
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+}
+.mgA{
+  margin-left: 15px;
+}
+.j-c{
+  justify-items: center;
+  
+}
+
+.jc-sb{
+  justify-content: space-between;
+}
+.saltoc{
+  margin-top: 10vh;
+}
+.saltoM{
+  margin-top: 20vh;
+}
+.caja{
+  color:white;
+  font-size: 70px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: #282c34;
+  font-weight: 600;
+}
+.Nosotros{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: oblique;
+}
+.p{
+  font-size: 20px;
+}
+.socio{
+  font-weight: 900;
+} 
+.nav-item > .active {
+  border-bottom: 1px solid #333;
+} 
+.c-i-r{
+  position: relative;
+  max-width: 100%;
+}
+.img-resp {
+  width: 100%;
+  height: 100%;
+}
